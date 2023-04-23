@@ -1,0 +1,10 @@
+Sure. BLOOM is a 176-billion parameter open-access multilingual language model (LLM) developed by BigScience, a collaborative project of over 400 researchers from universities and research institutions around the world. BLOOM was trained on a massive dataset of text and code, including books, articles, code, and other forms of text. It is capable of generating text, translating languages, writing different kinds of creative content, and answering your questions in an informative way.
+
+BLOOM is still under development, but it has already been shown to be capable of performing many kinds of tasks, including:
+
+* *Generating text:* BLOOM can generate text in a variety of styles, including news articles, creative writing, and code.
+* *Translating languages:* BLOOM can translate between over 100 languages.
+* *Answering questions:* BLOOM can answer your questions in an informative way, even if they are open ended, challenging, or strange.
+* *Writing different kinds of creative content:* BLOOM can write different kinds of creative content, such as poems, code, scripts, musical pieces, email, letters, etc.
+
+BLOOM is a powerful tool that has the potential to be used for a variety of applications. It is still under development, but it has already shown great promise.

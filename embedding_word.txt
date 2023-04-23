@@ -1,0 +1,8 @@
+There are two main approaches to embedding token words:
+
+* **Count-based approaches:** These approaches use the frequency of words in a corpus to create word embeddings. The most common count-based approach is **one-hot encoding**. In one-hot encoding, each word is represented by a vector of zeros, with a single one at the index corresponding to the word's position in the vocabulary.
+* **Context-based approaches:** These approaches use the context in which words appear to create word embeddings. The most common context-based approach is **word2vec**. Word2vec uses a neural network to learn word embeddings that capture the semantic relationships between words.
+
+Both count-based and context-based approaches have their own advantages and disadvantages. Count-based approaches are simple and efficient to compute, but they do not capture the semantic relationships between words. Context-based approaches are more complex and computationally expensive, but they can capture more nuanced semantic relationships between words.
+
+In practice, it is often useful to combine count-based and context-based approaches to create word embeddings. This can be done by first using a count-based approach to create a rough approximation of the word embeddings, and then using a context-based approach to refine the embeddings.

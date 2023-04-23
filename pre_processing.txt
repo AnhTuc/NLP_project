@@ -1,0 +1,12 @@
+There are many different approaches to pre-processing text before putting it in a language model. Some of the most common approaches include:
+
+* **Tokenization:** This is the process of breaking down text into individual tokens, such as words, phrases, or characters.
+* **Normalization:** This is the process of converting text into a standard format, such as lowercasing all letters or removing punctuation.
+* **Stop word removal:** This is the process of removing common words that do not add much meaning to the text, such as "a", "the", and "of".
+* **Stemming:** This is the process of reducing words to their root form, such as "walk" and "walking" to "walk".
+* **Lemmatization:** This is the process of reducing words to their lemma, which is the dictionary form of the word. For example, "walk" and "walking" would both be lemmatized to "walk".
+* **Data cleaning:** This is the process of removing errors and inconsistencies from the text. This can include things like correcting spelling mistakes, removing duplicate data, and filling in missing values.
+
+The specific approach to pre-processing text that you use will depend on the specific language model that you are using and the task that you are trying to perform. For example, if you are using a language model to generate text, then you might want to use a more aggressive approach to pre-processing, such as stemming and lemmatization. If you are using a language model to translate text, then you might want to use a more conservative approach to pre-processing, such as tokenization and normalization.
+
+It is important to note that pre-processing text can be a time-consuming and expensive process. It is important to weigh the benefits of pre-processing against the costs before deciding whether or not to pre-process your text.
