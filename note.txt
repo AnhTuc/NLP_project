@@ -1,0 +1,49 @@
+There are many different approaches to tokenizing English text. Some of the most common approaches include:
+
+* **Word tokenization:** This is the most basic form of tokenization, where each word is considered to be a token.
+* **Sentence tokenization:** This approach breaks text down into sentences.
+* **Character tokenization:** This approach breaks text down into individual characters.
+* **Subword tokenization:** This approach breaks text down into subwords, which are typically smaller than words.
+
+The best approach to tokenization depends on the specific task that you are trying to perform. For example, if you are trying to build a language model, then you will probably want to use subword tokenization. If you are trying to do sentiment analysis, then you might want to use word tokenization.
+
+Here are some of the advantages and disadvantages of each approach:
+
+**Word tokenization**
+
+* Advantages:
+    * Simple and easy to implement
+    * Works well for most tasks
+* Disadvantages:
+    * Can be noisy, especially for morphologically rich languages
+    * Can lead to information loss, especially for compound words
+
+**Sentence tokenization**
+
+* Advantages:
+    * Simple and easy to implement
+    * Works well for tasks that require sentence-level information
+* Disadvantages:
+    * Can be noisy, especially for texts that are not well-formed
+    * Can lead to information loss, especially for texts that contain multiple sentences
+
+**Character tokenization**
+
+* Advantages:
+    * Can capture fine-grained linguistic information
+    * Can be used to handle out-of-vocabulary words
+* Disadvantages:
+    * Can be computationally expensive
+    * Can lead to information loss, especially for morphologically rich languages
+
+**Subword tokenization**
+
+* Advantages:
+    * Can capture fine-grained linguistic information
+    * Can be used to handle out-of-vocabulary words
+    * Less noisy than word tokenization
+* Disadvantages:
+    * Can be computationally expensive
+    * Can be difficult to implement
+
+
