@@ -98,8 +98,6 @@ def wordpiece(vocab, desired_vocab_len = 70):
 
         vocab.append(new_tokens)
 
-#Train wordpiece
-wordpiece(vocab)
 
 def encode_word(word):
     """
@@ -118,6 +116,7 @@ def encode_word(word):
         if len(word) >=0 :
             word = f"##{word}"
     return tokens
+
 def decode(tokens, vocab):
     """
     Decode a given tokens
@@ -138,7 +137,9 @@ def tokenize(text):
     encode_words = [encode_word(word) for word in pre_tokenize_word]
     return encode_words
 
-
+if __name__ =="__main__":
+    wordpiece(vocab)
+    tokenize("Lan does homework")
 
 
 
